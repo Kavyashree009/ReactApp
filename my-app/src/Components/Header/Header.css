@@ -10,7 +10,7 @@
   display: flex;
   flex-direction: column;
   background-color: #bbdefb;
-  padding-bottom: 0.5em;
+  padding-bottom: 1em;
 }
 
 .borderline {
@@ -28,4 +28,7 @@
 }
 .local {
   margin-left: 5%;
+}
+.space {
+  padding-bottom: 7px;
 }

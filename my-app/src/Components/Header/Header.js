@@ -8,7 +8,7 @@ function Header() {
       <h2 className="heading">Summary Statistics</h2>
       <div className="borderline">
         <div className="outline">
-          <div>
+          <div className="space">
             <label id="get">Get</label>
             <input className="global" type="radio" id="global" value="Global" />
             <label for="global">Global</label>
