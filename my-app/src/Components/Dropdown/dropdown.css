@@ -1,0 +1,29 @@
+.dropdown {
+  border-radius: 2px;
+  width: 20%;
+  margin-left: 0.5em;
+}
+
+.dropdown1 {
+  border-radius: 2px;
+  width: 20%;
+  margin-left: 1em;
+}
+
+.dropdown2 {
+  border-radius: 2px;
+  width: 20%;
+  margin-left: 1em;
+}
+
+.label0 {
+  padding-left: 10px;
+}
+
+.label1 {
+  padding-left: 50px;
+}
+
+.label2 {
+  padding-left: 50px;
+}

@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+.heading {
+  text-align: center;
+}
+
+.outline {
+  display: flex;
+  flex-direction: column;
+  background-color: #bbdefb;
+  padding-bottom: 0.5em;
+}
+
+.borderline {
+  border: 2px solid black;
+  padding: 3px;
+  margin: 10px;
+}
+
+.search-button {
+  size: 20px;
+}
+
+.global {
+  margin-left: 20%;
+}
+.local {
+  margin-left: 5%;
+}

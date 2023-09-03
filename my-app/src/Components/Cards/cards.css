@@ -1,0 +1,17 @@
+.cardcomponent {
+  display: flex;
+  flex-direction: row;
+}
+.wrapper {
+  position: relative;
+  min-height: 300px;
+}
+
+.noline {
+  position: absolute;
+  right: 20px;
+  margin: 1% 1%;
+  border: none;
+  outline: none;
+  text-align: right;
+}

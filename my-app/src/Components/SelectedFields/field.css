@@ -1,0 +1,15 @@
+.labelarea .labelarea1 {
+  padding-bottom: 10px;
+  align-items: start;
+}
+
+.aligncenter {
+  display: flex;
+  align-items: center;
+}
+
+.noline {
+  margin: 1% 1%;
+  border: none;
+  outline: none;
+}
