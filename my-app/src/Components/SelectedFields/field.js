@@ -1,5 +1,4 @@
 import "./field.css";
-// import Cards from "../Cards/cards";
 function field() {
   return (
     <>
@@ -26,6 +25,16 @@ function field() {
         <textarea className="noline" id="Local" name="Local" rows="4" cols="50">
           Po33- spill Rail
         </textarea>
+      </div>
+      <div>
+        <label>Hub:</label>
+        <input className="noline" type="text" value={"LAND ROVER"} />
+
+        <label>Country:</label>
+        <input className="noline" type="text" value={"United Kingdom"} />
+
+        <label>Population:</label>
+        <input className="noline" type="text" value={"Original"} />
       </div>
     </>
   );

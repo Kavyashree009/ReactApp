@@ -28,10 +28,10 @@ const card = (
         Confirmed
       </Typography>
       <label for="Original">Original:</label>
-      <input className="noline" type="text" id="Original" value={"466466"} />
+      <input className="noline1" type="text" id="Original" value={"466466"} />
       <br></br>
       <label for="Original">Total Confirmed:</label>
-      <input className="noline" type="text" id="Original" value={"466466"} />
+      <input className="noline1" type="text" id="Original" value={"466466"} />
     </CardContent>
     <CardActions>{/* <Button size="small">Learn More</Button> */}</CardActions>
   </React.Fragment>
@@ -39,7 +39,7 @@ const card = (
 
 const card1 = (
   <React.Fragment>
-    <CardContent>
+    <CardContent className="wrapper">
       <Typography
         sx={{ fontSize: 14, fontWeight: "bold", backgroundColor: "#bbdefb" }}
         color="text.secondary"
@@ -48,10 +48,10 @@ const card1 = (
         Confirmed
       </Typography>
       <label for="Original">Original:</label>
-      <input className="noline" type="text" id="Original" value={"466466"} />
+      <input className="noline1" type="text" id="Original" value={"466466"} />
       <br></br>
       <label for="Original">Total Confirmed:</label>
-      <input className="noline" type="text" id="Original" value={"466466"} />
+      <input className="noline1" type="text" id="Original" value={"466466"} />
     </CardContent>
     <CardActions>{/* <Button size="small">Learn More</Button> */}</CardActions>
   </React.Fragment>
@@ -59,7 +59,7 @@ const card1 = (
 
 const card2 = (
   <React.Fragment>
-    <CardContent>
+    <CardContent className="wrapper">
       <Typography
         sx={{ fontSize: 14, fontWeight: "bold", backgroundColor: "#bbdefb" }}
         color="text.secondary"
@@ -68,10 +68,10 @@ const card2 = (
         Confirmed
       </Typography>
       <label for="Original">Original:</label>
-      <input className="noline" type="text" id="Original" value={"466466"} />
+      <input className="noline1" type="text" id="Original" value={"466466"} />
       <br></br>
       <label for="Original">Total Confirmed:</label>
-      <input className="noline" type="text" id="Original" value={"466466"} />
+      <input className="noline1" type="text" id="Original" value={"466466"} />
     </CardContent>
     <CardActions>{/* <Button size="small">Learn More</Button> */}</CardActions>
   </React.Fragment>
@@ -79,7 +79,7 @@ const card2 = (
 
 const card3 = (
   <React.Fragment>
-    <CardContent>
+    <CardContent className="wrapper">
       <Typography
         sx={{ fontSize: 14, fontWeight: "bold", backgroundColor: "#bbdefb" }}
         color="text.secondary"
@@ -88,10 +88,10 @@ const card3 = (
         Confirmed
       </Typography>
       <label for="Original">Original:</label>
-      <input className="noline" type="text" id="Original" value={"466466"} />
+      <input className="noline1" type="text" id="Original" value={"466466"} />
       <br></br>
       <label for="Original">Total Confirmed:</label>
-      <input className="noline" type="text" id="Original" value={"466466"} />
+      <input className="noline1" type="text" id="Original" value={"466466"} />
     </CardContent>
     <CardActions>{/* <Button size="small">Learn More</Button> */}</CardActions>
   </React.Fragment>
@@ -99,7 +99,7 @@ const card3 = (
 
 const card4 = (
   <React.Fragment>
-    <CardContent>
+    <CardContent className="wrapper">
       <Typography
         sx={{ fontSize: 14, fontWeight: "bold", backgroundColor: "#bbdefb" }}
         color="text.secondary"
@@ -108,10 +108,10 @@ const card4 = (
         Confirmed
       </Typography>
       <label for="Original">Original:</label>
-      <input className="noline" type="text" id="Original" value={"466466"} />
+      <input className="noline1" type="text" id="Original" value={"466466"} />
       <br></br>
       <label for="Original">Total Confirmed:</label>
-      <input className="noline" type="text" id="Original" value={"466466"} />
+      <input className="noline1" type="text" id="Original" value={"466466"} />
     </CardContent>
     <CardActions>{/* <Button size="small">Learn More</Button> */}</CardActions>
   </React.Fragment>
@@ -119,7 +119,7 @@ const card4 = (
 
 const card5 = (
   <React.Fragment>
-    <CardContent>
+    <CardContent className="wrapper">
       <Typography
         sx={{ fontSize: 14, fontWeight: "bold", backgroundColor: "#bbdefb" }}
         color="text.secondary"
@@ -128,10 +128,10 @@ const card5 = (
         Confirmed
       </Typography>
       <label for="Original">Original:</label>
-      <input className="noline" type="text" id="Original" value={"466466"} />
+      <input className="noline1" type="text" id="Original" value={"466466"} />
       <br></br>
       <label for="Original">Total Confirmed:</label>
-      <input className="noline" type="text" id="Original" value={"466466"} />
+      <input className="noline1" type="text" id="Original" value={"466466"} />
     </CardContent>
     <CardActions>{/* <Button size="small">Learn More</Button> */}</CardActions>
   </React.Fragment>
@@ -148,26 +148,26 @@ export default function Cards() {
         </div>
         <div>
           <Box sx={{ minWidth: 450, minHeight: 200, margin: "2px" }}>
-            <Card variant="outlined">{card}</Card>
+            <Card variant="outlined">{card1}</Card>
           </Box>
         </div>
         <Box sx={{ minWidth: 450, minHeight: 200, margin: "2px" }}>
-          <Card variant="outlined">{card}</Card>
+          <Card variant="outlined">{card2}</Card>
         </Box>
       </div>
       <div className="cardcomponent">
         <div>
           <Box sx={{ minWidth: 450, minHeight: 200, margin: "2px" }}>
-            <Card variant="outlined">{card}</Card>
+            <Card variant="outlined">{card3}</Card>
           </Box>
         </div>
         <div>
           <Box sx={{ minWidth: 450, minHeight: 200, margin: "2px" }}>
-            <Card variant="outlined">{card}</Card>
+            <Card variant="outlined">{card4}</Card>
           </Box>
         </div>
         <Box sx={{ minWidth: 450, minHeight: 200, margin: "2px" }}>
-          <Card variant="outlined">{card}</Card>
+          <Card variant="outlined">{card5}</Card>
         </Box>
       </div>
     </>
